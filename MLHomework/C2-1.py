@@ -49,3 +49,4 @@ test_result = [perception.output(x[:2]) for x in test]
 true_result = [x[2] for x in test]
 print(classification_report(true_result, test_result))
 
+
